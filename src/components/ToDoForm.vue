@@ -1,8 +1,10 @@
 <template>
   <form @submit.prevent="onSubmit">
-    <label for="new-todo-input" class="label__lg">
-      What needs to be done?
-    </label>
+    <h2 class="label-wrapper">
+      <label for="new-todo-input" class="label__lg">
+        What needs to be done?
+      </label>
+    </h2>
     <input
       type="text"
       id="new-todo-input"

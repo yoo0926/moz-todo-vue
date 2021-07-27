@@ -1,6 +1,12 @@
 <template>
   <div class="custom-checkbox">
-    <input type="checkbox" :id="id" :checked="isDone" class="checkbox" />
+    <input
+      type="checkbox"
+      :id="id"
+      :checked="isDone"
+      class="checkbox"
+      @change="$emit('checkbox-changed')"
+    />
     <label :for="id" class="checkbox-label">{{ label }}</label>
   </div>
 </template>
@@ -19,6 +25,7 @@ export default {
   }
 };
 </script>
+
 <style scoped>
 .custom-checkbox > .checkbox-label {
   font-family: Arial, sans-serif;

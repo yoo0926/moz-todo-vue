@@ -10,7 +10,7 @@ module.exports = {
   // 들여쓰기 너비는 2칸
   trailingComma: 'none',
   // 여러 줄을 사용할 때, 후행 콤마 사용 방식 formatting
-  printWidth: 80,
+  printWidth: 100,
   // 코드 한줄이 maximum 80칸
   arrowParens: 'avoid',
   // 화살표 함수가 하나의 매개변수를 받을 때 괄호를 생략하게 formatting
